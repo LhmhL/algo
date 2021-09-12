@@ -1,0 +1,11 @@
+_104_MaximumDepthOfBinaryTree
+_112_PathSum
+_226_InvertBinaryTree
+_100_SameTree
+_101_SymmetricTree
+
+二叉查找树性能总结
+对于完全随机的数据来说，普通二叉查找树的性能很好
+普通二叉查找树的缺点：在极端的情况下会退化为链表（或者高度不平衡）
+对于查询较多的情况，AVL树的性能很好，AVL树高度logn
+红黑树牺牲了平衡性，没用AVL树平衡，保持黑平衡，高度2logn，但是红黑树的统计性能更优（综合增删改查所有操作）
